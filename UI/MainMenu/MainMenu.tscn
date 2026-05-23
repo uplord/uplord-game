@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://tjuyu3670vlk"]
+
+[ext_resource type="Script" uid="uid://c8xlg2f6er18b" path="res://UI/MainMenu/MainMenu.gd" id="1_8fkdr"]
+
+[node name="MainMenu" type="Node2D" unique_id=373477316]
+script = ExtResource("1_8fkdr")
+
+[node name="Button" type="Button" parent="." unique_id=370310953]
+custom_minimum_size = Vector2(140, 48)
+offset_left = 730.0
+offset_top = 426.0
+offset_right = 870.0
+offset_bottom = 474.0
+text = "Connect"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
