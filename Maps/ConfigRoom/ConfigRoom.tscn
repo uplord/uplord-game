@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dmchm10l1ibe5"]
+
+[ext_resource type="Script" uid="uid://culjhjt47tk7x" path="res://Maps/BaseMap.gd" id="1_ea0dp"]
+
+[node name="ConfigRoom" type="Node2D" unique_id=1123381516]
+script = ExtResource("1_ea0dp")

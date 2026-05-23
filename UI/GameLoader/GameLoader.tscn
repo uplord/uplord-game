@@ -6,4 +6,5 @@
 [node name="GameLoader" type="Node2D" unique_id=114528417]
 script = ExtResource("1_53en0")
 
-[node name="DebugUi" parent="." unique_id=1786003355 instance=ExtResource("2_vu3m4")]
+[node name="DebugUI" parent="." unique_id=1786003355 instance=ExtResource("2_vu3m4")]
+z_index = 4096

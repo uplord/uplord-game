@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://pjd8luv330i"]
+
+[ext_resource type="Script" uid="uid://cvv8jwpjrfd1e" path="res://Maps/BaseScene.gd" id="1_vhyca"]
+[ext_resource type="Texture2D" uid="uid://dqph36mlxled2" path="res://Maps/StarterTown/Art/scene-2.png" id="2_50p8p"]
+
+[node name="Scene2" type="Node2D" unique_id=187835607]
+script = ExtResource("1_vhyca")
+
+[node name="Scene2" type="Sprite2D" parent="." unique_id=1594310076]
+texture = ExtResource("2_50p8p")
+centered = false

@@ -1,0 +1,13 @@
+{
+  "StarterTown": {
+	"scenes": {
+	  "Scene1": { "locked": false },
+	  "Scene2": { "locked": true }
+	}
+  },
+  "ConfigRoom": {
+	"scenes": {
+	  "Scene1": { "locked": false }
+	}
+  }
+}

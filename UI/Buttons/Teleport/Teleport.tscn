@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dymr4fxbq1i44"]
+
+[node name="Teleport" type="Button" unique_id=1596714143]
+custom_minimum_size = Vector2(140, 48)
+text = "Teleport
+"

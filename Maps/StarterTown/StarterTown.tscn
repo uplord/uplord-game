@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://baa8k5jhkcuf6"]
+
+[ext_resource type="Script" uid="uid://culjhjt47tk7x" path="res://Maps/BaseMap.gd" id="1_ofhub"]
+
+[node name="StarterTown" type="Node2D" unique_id=1819444246]
+script = ExtResource("1_ofhub")
