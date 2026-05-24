@@ -44,7 +44,50 @@ func handle_server_packet(
 				server_manager.connected_clients[client_id] = 0.0
 
 		"c_spawn_player":
-			print("Spawn Player")
+			_spawn_player(client_id)
+
+		"c_move_player":
+			_move_player(client_id, data)
+
+		"c_teleport_player":
+			_teleport_player(client_id, data)
+
+		"c_request_sync":
+			_request_sync(client_id)
+
+
+# --------------------------------------------------
+# SPAWN PLAYER
+# --------------------------------------------------
+func _spawn_player(client_id: int):
+	pass
+
+
+# --------------------------------------------------
+# MOVE PLAYER
+# --------------------------------------------------
+func _move_player(
+	client_id: int,
+	data: Dictionary
+):
+	pass
+
+
+# --------------------------------------------------
+# TELEPORT PLAYER
+# --------------------------------------------------
+func _teleport_player(
+	client_id: int,
+	data: Dictionary
+):
+	pass
+
+
+# --------------------------------------------------
+# REQUEST SYNC
+# --------------------------------------------------
+func _request_sync(client_id: int):
+	pass
 
 
 # --------------------------------------------------
@@ -62,3 +105,12 @@ func handle_client_packet(data: Dictionary):
 			server_manager.send_to_server({
 				"type": "c_spawn_player"
 			})
+
+		"s_spawn_player":
+			pass
+
+		"s_teleport_player":
+			pass
+
+		"s_request_sync":
+			pass
